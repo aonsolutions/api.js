@@ -1,0 +1,37 @@
+{
+	"name": "aon",
+	"version": "0.3.1",
+	"description": "aon Solutions backend",
+	"homepage": "https://github.com/aonsolutions/api.js",
+	"keywords": [
+		"aon"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aonsolutions/api.js.git"
+	},
+	"bin": {},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"google-auth-library": "^0.11.0",
+		"googleapis": "^21.3.0",
+		"https": "^1.0.0",
+		"jwt-simple": "^0.5.1",
+		"moment": "^2.18.1",
+		"mysql": "^2.14.1",
+		"pdf-image": "^1.1.0",
+		"pdfkit": "^0.8.3",
+		"querystring": "^0.2.0",
+		"sql": "^0.78.0",
+		"written-number": "^0.6.3"
+	},
+	"devDependencies": {
+		"commander": "^2.11.0",
+		"eslint": "^4.6.1",
+		"sql-generate": "^1.5.0"
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"test": "node test"
+	}
+}
